@@ -22,11 +22,12 @@
 		4B402C471CDC83980047DD6B /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B402C461CDC83980047DD6B /* Singleton.swift */; };
 		4B402C481CDC83980047DD6B /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B402C461CDC83980047DD6B /* Singleton.swift */; };
 		4B402C4A1CDC85770047DD6B /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B402C491CDC85770047DD6B /* SingletonTests.swift */; };
-		4B402C4D1CDC94960047DD6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B402C4B1CDC94960047DD6B /* ViewController.swift */; };
-		4B402C4E1CDC94960047DD6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B402C4B1CDC94960047DD6B /* ViewController.swift */; };
-		4B402C4F1CDC94960047DD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B402C4C1CDC94960047DD6B /* Main.storyboard */; };
-		4B402C501CDC94960047DD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B402C4C1CDC94960047DD6B /* Main.storyboard */; };
-		4B402C551CDC959C0047DD6B /* PercentageCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B402C541CDC959C0047DD6B /* PercentageCalculatorTests.swift */; };
+		4B432BE81CE075BE0062EC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BE71CE075BE0062EC52 /* ViewController.swift */; };
+		4B432BE91CE075BE0062EC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BE71CE075BE0062EC52 /* ViewController.swift */; };
+		4B432BEB1CE077260062EC52 /* AlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BEA1CE077260062EC52 /* AlertControllerTests.swift */; };
+		4B432BED1CE092420062EC52 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BEC1CE092420062EC52 /* ProjectTests.swift */; };
+		4B432BEF1CE092920062EC52 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BEE1CE092920062EC52 /* Project.swift */; };
+		4B432BF01CE092920062EC52 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BEE1CE092920062EC52 /* Project.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,9 +66,10 @@
 		4B402C441CDC7C760047DD6B /* FrogTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrogTests.swift; sourceTree = "<group>"; };
 		4B402C461CDC83980047DD6B /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		4B402C491CDC85770047DD6B /* SingletonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
-		4B402C4B1CDC94960047DD6B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B402C4C1CDC94960047DD6B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		4B402C541CDC959C0047DD6B /* PercentageCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageCalculatorTests.swift; sourceTree = "<group>"; };
+		4B432BE71CE075BE0062EC52 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B432BEA1CE077260062EC52 /* AlertControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerTests.swift; sourceTree = "<group>"; };
+		4B432BEC1CE092420062EC52 /* ProjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		4B432BEE1CE092920062EC52 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				4B402C081CDC25960047DD6B /* AppDelegate.swift */,
-				4B402C4B1CDC94960047DD6B /* ViewController.swift */,
-				4B402C4C1CDC94960047DD6B /* Main.storyboard */,
+				4B432BE71CE075BE0062EC52 /* ViewController.swift */,
 				4B402C3A1CDC720C0047DD6B /* Url.swift */,
 				4B402C411CDC7BE20047DD6B /* Frog.swift */,
 				4B402C461CDC83980047DD6B /* Singleton.swift */,
+				4B432BEE1CE092920062EC52 /* Project.swift */,
 				4B402C0F1CDC25960047DD6B /* Assets.xcassets */,
 				4B402C111CDC25960047DD6B /* LaunchScreen.storyboard */,
 				4B402C141CDC25960047DD6B /* Info.plist */,
@@ -139,7 +141,8 @@
 				4B402C3D1CDC750B0047DD6B /* UrlTests.swift */,
 				4B402C441CDC7C760047DD6B /* FrogTests.swift */,
 				4B402C491CDC85770047DD6B /* SingletonTests.swift */,
-				4B402C541CDC959C0047DD6B /* PercentageCalculatorTests.swift */,
+				4B432BEC1CE092420062EC52 /* ProjectTests.swift */,
+				4B432BEA1CE077260062EC52 /* AlertControllerTests.swift */,
 				4B402C1F1CDC25960047DD6B /* Info.plist */,
 			);
 			path = SwiftTDDTestTests;
@@ -258,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B402C4F1CDC94960047DD6B /* Main.storyboard in Resources */,
 				4B402C131CDC25960047DD6B /* LaunchScreen.storyboard in Resources */,
 				4B402C101CDC25960047DD6B /* Assets.xcassets in Resources */,
 			);
@@ -268,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B402C501CDC94960047DD6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B402C4D1CDC94960047DD6B /* ViewController.swift in Sources */,
+				4B432BE81CE075BE0062EC52 /* ViewController.swift in Sources */,
 				4B402C3B1CDC720C0047DD6B /* Url.swift in Sources */,
 				4B402C091CDC25960047DD6B /* AppDelegate.swift in Sources */,
 				4B402C421CDC7BE20047DD6B /* Frog.swift in Sources */,
 				4B402C471CDC83980047DD6B /* Singleton.swift in Sources */,
+				4B432BEF1CE092920062EC52 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +302,16 @@
 			files = (
 				4B402C401CDC79EC0047DD6B /* BaseTests.swift in Sources */,
 				4B402C481CDC83980047DD6B /* Singleton.swift in Sources */,
+				4B432BED1CE092420062EC52 /* ProjectTests.swift in Sources */,
 				4B402C1E1CDC25960047DD6B /* SwiftTDDTestTests.swift in Sources */,
-				4B402C551CDC959C0047DD6B /* PercentageCalculatorTests.swift in Sources */,
-				4B402C4E1CDC94960047DD6B /* ViewController.swift in Sources */,
+				4B432BE91CE075BE0062EC52 /* ViewController.swift in Sources */,
+				4B432BEB1CE077260062EC52 /* AlertControllerTests.swift in Sources */,
 				4B402C3E1CDC750B0047DD6B /* UrlTests.swift in Sources */,
 				4B402C451CDC7C760047DD6B /* FrogTests.swift in Sources */,
 				4B402C4A1CDC85770047DD6B /* SingletonTests.swift in Sources */,
 				4B402C431CDC7BE20047DD6B /* Frog.swift in Sources */,
 				4B402C3C1CDC720C0047DD6B /* Url.swift in Sources */,
+				4B432BF01CE092920062EC52 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +520,7 @@
 				4B402C2F1CDC25960047DD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B402C301CDC25960047DD6B /* Build configuration list for PBXNativeTarget "SwiftTDDTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				4B402C321CDC25960047DD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B402C331CDC25960047DD6B /* Build configuration list for PBXNativeTarget "SwiftTDDTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				4B402C351CDC25960047DD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
