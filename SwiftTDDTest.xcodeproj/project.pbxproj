@@ -28,6 +28,22 @@
 		4B432BED1CE092420062EC52 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BEC1CE092420062EC52 /* ProjectTests.swift */; };
 		4B432BEF1CE092920062EC52 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BEE1CE092920062EC52 /* Project.swift */; };
 		4B432BF01CE092920062EC52 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B432BEE1CE092920062EC52 /* Project.swift */; };
+		4B4909451CE1B96A0041A4E6 /* EventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909441CE1B96A0041A4E6 /* EventProtocol.swift */; };
+		4B4909461CE1B96A0041A4E6 /* EventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909441CE1B96A0041A4E6 /* EventProtocol.swift */; };
+		4B49094B1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49094A1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift */; };
+		4B49094C1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49094A1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift */; };
+		4B49094E1CE1BC330041A4E6 /* EventDescriptionFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49094D1CE1BC330041A4E6 /* EventDescriptionFormatterTests.swift */; };
+		4B4909501CE1C0030041A4E6 /* Banana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49094F1CE1C0030041A4E6 /* Banana.swift */; };
+		4B4909511CE1C0030041A4E6 /* Banana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49094F1CE1C0030041A4E6 /* Banana.swift */; };
+		4B4909531CE1C0260041A4E6 /* BananaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909521CE1C0260041A4E6 /* BananaTests.swift */; };
+		4B4909581CE1C1D90041A4E6 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909571CE1C1D90041A4E6 /* Offer.swift */; };
+		4B4909591CE1C1D90041A4E6 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909571CE1C1D90041A4E6 /* Offer.swift */; };
+		4B49095B1CE1C1E60041A4E6 /* OfferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49095A1CE1C1E60041A4E6 /* OfferTests.swift */; };
+		4B49095D1CE1CB5A0041A4E6 /* Monkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49095C1CE1CB5A0041A4E6 /* Monkey.swift */; };
+		4B49095E1CE1CB5A0041A4E6 /* Monkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49095C1CE1CB5A0041A4E6 /* Monkey.swift */; };
+		4B4909621CE1CB8F0041A4E6 /* SilliestMonkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909611CE1CB8F0041A4E6 /* SilliestMonkey.swift */; };
+		4B4909631CE1CB8F0041A4E6 /* SilliestMonkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909611CE1CB8F0041A4E6 /* SilliestMonkey.swift */; };
+		4B4909651CE1CB9D0041A4E6 /* SilliestMonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4909641CE1CB9D0041A4E6 /* SilliestMonkeyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +86,16 @@
 		4B432BEA1CE077260062EC52 /* AlertControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerTests.swift; sourceTree = "<group>"; };
 		4B432BEC1CE092420062EC52 /* ProjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 		4B432BEE1CE092920062EC52 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		4B4909441CE1B96A0041A4E6 /* EventProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProtocol.swift; sourceTree = "<group>"; };
+		4B49094A1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptionFormatter.swift; sourceTree = "<group>"; };
+		4B49094D1CE1BC330041A4E6 /* EventDescriptionFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptionFormatterTests.swift; sourceTree = "<group>"; };
+		4B49094F1CE1C0030041A4E6 /* Banana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banana.swift; sourceTree = "<group>"; };
+		4B4909521CE1C0260041A4E6 /* BananaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaTests.swift; sourceTree = "<group>"; };
+		4B4909571CE1C1D90041A4E6 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		4B49095A1CE1C1E60041A4E6 /* OfferTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferTests.swift; sourceTree = "<group>"; };
+		4B49095C1CE1CB5A0041A4E6 /* Monkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monkey.swift; sourceTree = "<group>"; };
+		4B4909611CE1CB8F0041A4E6 /* SilliestMonkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilliestMonkey.swift; sourceTree = "<group>"; };
+		4B4909641CE1CB9D0041A4E6 /* SilliestMonkeyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilliestMonkeyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +152,12 @@
 				4B402C411CDC7BE20047DD6B /* Frog.swift */,
 				4B402C461CDC83980047DD6B /* Singleton.swift */,
 				4B432BEE1CE092920062EC52 /* Project.swift */,
+				4B4909441CE1B96A0041A4E6 /* EventProtocol.swift */,
+				4B49094A1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift */,
+				4B49094F1CE1C0030041A4E6 /* Banana.swift */,
+				4B4909571CE1C1D90041A4E6 /* Offer.swift */,
+				4B49095C1CE1CB5A0041A4E6 /* Monkey.swift */,
+				4B4909611CE1CB8F0041A4E6 /* SilliestMonkey.swift */,
 				4B402C0F1CDC25960047DD6B /* Assets.xcassets */,
 				4B402C111CDC25960047DD6B /* LaunchScreen.storyboard */,
 				4B402C141CDC25960047DD6B /* Info.plist */,
@@ -143,6 +175,10 @@
 				4B402C491CDC85770047DD6B /* SingletonTests.swift */,
 				4B432BEC1CE092420062EC52 /* ProjectTests.swift */,
 				4B432BEA1CE077260062EC52 /* AlertControllerTests.swift */,
+				4B49094D1CE1BC330041A4E6 /* EventDescriptionFormatterTests.swift */,
+				4B4909521CE1C0260041A4E6 /* BananaTests.swift */,
+				4B49095A1CE1C1E60041A4E6 /* OfferTests.swift */,
+				4B4909641CE1CB9D0041A4E6 /* SilliestMonkeyTests.swift */,
 				4B402C1F1CDC25960047DD6B /* Info.plist */,
 			);
 			path = SwiftTDDTestTests;
@@ -288,10 +324,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B432BE81CE075BE0062EC52 /* ViewController.swift in Sources */,
+				4B4909451CE1B96A0041A4E6 /* EventProtocol.swift in Sources */,
 				4B402C3B1CDC720C0047DD6B /* Url.swift in Sources */,
+				4B4909621CE1CB8F0041A4E6 /* SilliestMonkey.swift in Sources */,
 				4B402C091CDC25960047DD6B /* AppDelegate.swift in Sources */,
+				4B4909581CE1C1D90041A4E6 /* Offer.swift in Sources */,
+				4B49094B1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift in Sources */,
 				4B402C421CDC7BE20047DD6B /* Frog.swift in Sources */,
 				4B402C471CDC83980047DD6B /* Singleton.swift in Sources */,
+				4B4909501CE1C0030041A4E6 /* Banana.swift in Sources */,
+				4B49095D1CE1CB5A0041A4E6 /* Monkey.swift in Sources */,
 				4B432BEF1CE092920062EC52 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,16 +342,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4909531CE1C0260041A4E6 /* BananaTests.swift in Sources */,
+				4B49095B1CE1C1E60041A4E6 /* OfferTests.swift in Sources */,
 				4B402C401CDC79EC0047DD6B /* BaseTests.swift in Sources */,
 				4B402C481CDC83980047DD6B /* Singleton.swift in Sources */,
 				4B432BED1CE092420062EC52 /* ProjectTests.swift in Sources */,
 				4B402C1E1CDC25960047DD6B /* SwiftTDDTestTests.swift in Sources */,
 				4B432BE91CE075BE0062EC52 /* ViewController.swift in Sources */,
+				4B4909591CE1C1D90041A4E6 /* Offer.swift in Sources */,
 				4B432BEB1CE077260062EC52 /* AlertControllerTests.swift in Sources */,
+				4B49094C1CE1B9ED0041A4E6 /* EventDescriptionFormatter.swift in Sources */,
 				4B402C3E1CDC750B0047DD6B /* UrlTests.swift in Sources */,
+				4B4909511CE1C0030041A4E6 /* Banana.swift in Sources */,
 				4B402C451CDC7C760047DD6B /* FrogTests.swift in Sources */,
 				4B402C4A1CDC85770047DD6B /* SingletonTests.swift in Sources */,
+				4B49095E1CE1CB5A0041A4E6 /* Monkey.swift in Sources */,
+				4B4909631CE1CB8F0041A4E6 /* SilliestMonkey.swift in Sources */,
 				4B402C431CDC7BE20047DD6B /* Frog.swift in Sources */,
+				4B4909651CE1CB9D0041A4E6 /* SilliestMonkeyTests.swift in Sources */,
+				4B49094E1CE1BC330041A4E6 /* EventDescriptionFormatterTests.swift in Sources */,
+				4B4909461CE1B96A0041A4E6 /* EventProtocol.swift in Sources */,
 				4B402C3C1CDC720C0047DD6B /* Url.swift in Sources */,
 				4B432BF01CE092920062EC52 /* Project.swift in Sources */,
 			);

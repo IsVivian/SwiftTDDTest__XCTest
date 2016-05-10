@@ -8,6 +8,7 @@
 
 import Foundation
 
+//GCD实现的单例模式
 class Singleton {
 
     //通过结构体保存实例的引用
@@ -35,3 +36,16 @@ class Singleton {
     }
     
 }
+
+//最简单的单例模式
+//class SwiftSingleton {
+//
+//    class var shared: SwiftSingleton {
+//        return Inner.instance
+//    }
+//
+//    struct Inner {
+//        static let instance: SwiftSingleton = SwiftSingleton()
+//    }
+//
+//}
