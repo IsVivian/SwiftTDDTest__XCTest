@@ -19,11 +19,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         self.view.backgroundColor = UIColor.whiteColor()
+    
         
         let alertBtn = UIButton.init(frame: CGRectMake(100, 100, 100, 30))
         alertBtn.backgroundColor = UIColor.yellowColor()
+        alertBtn.setTitle("alertBtn", forState: .Normal)
         alertBtn.addTarget(self, action: #selector(alertBtnAct), forControlEvents: .TouchUpInside)
         self.view.addSubview(alertBtn)
+        
+        let pushBtn = UIButton.init(frame: CGRectMake(100, 300, 100, 30))
+        pushBtn.backgroundColor = UIColor.redColor()
+        pushBtn.setTitle("pushBtn", forState: .Normal)
+        pushBtn.addTarget(self, action: #selector(pushBtnAct), forControlEvents: .TouchUpInside)
+        self.view.addSubview(pushBtn)
         
     }
     
@@ -32,7 +40,9 @@ class ViewController: UIViewController {
         let alert = UIAlertController.init(title: "TestTitle", message: "这是一个Test", preferredStyle: .Alert)
         let okAct = Action.init(title: "OK", style: .Default) { (action) in
             
-            self.actionString = "OK"
+            let secondVC = SecondViewController()
+            secondVC.view.backgroundColor = UIColor.whiteColor()
+            self.presentViewController(secondVC, animated: true, completion: nil)
             
         }
 
@@ -47,6 +57,14 @@ class ViewController: UIViewController {
         alert.addAction(okAct)
         
         presentViewController(alert, animated: true, completion: nil)
+    
+    }
+    
+    func pushBtnAct(btn: UIButton) {
+    
+        let tableVC = TableViewController()
+        tableVC.view.backgroundColor = UIColor.whiteColor()
+        self.presentViewController(tableVC, animated: true, completion: nil)
     
     }
 

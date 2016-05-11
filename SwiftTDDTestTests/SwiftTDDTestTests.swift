@@ -73,7 +73,7 @@ class SwiftTDDTestTests: XCTestCase {
     
     func testAsynchronousURLConnection() {
     
-        let URL = NSURL(string: "http://www.baidu.com")!
+        let URL = NSURL(string: "http://www.baidu.com/")!
         let expectation = expectationWithDescription("GET\(URL)")
         let session = NSURLSession.sharedSession()
         let task = session.dataTaskWithURL(URL) { (data, response, error) in
