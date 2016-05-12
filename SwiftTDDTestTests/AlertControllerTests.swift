@@ -41,6 +41,7 @@ class AlertControllerTests: XCTestCase {
     func testAlert_HasTitle() {
     
         vc.alertBtnAct(UIButton())
+        XCTAssertEqual(vc.alertBtn.titleLabel?.text, "alertBtn")
         XCTAssertTrue(vc.presentedViewController is UIAlertController)
         XCTAssertEqual(vc.presentedViewController?.title, "TestTitle")
     

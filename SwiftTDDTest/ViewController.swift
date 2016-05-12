@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     var actionString: String?
     var Action = UIAlertAction.self
+    var alertBtn = UIButton()
+    var pushBtn = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +23,13 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
     
         
-        let alertBtn = UIButton.init(frame: CGRectMake(100, 100, 100, 30))
+        alertBtn = UIButton.init(frame: CGRectMake(100, 100, 100, 30))
         alertBtn.backgroundColor = UIColor.yellowColor()
         alertBtn.setTitle("alertBtn", forState: .Normal)
         alertBtn.addTarget(self, action: #selector(alertBtnAct), forControlEvents: .TouchUpInside)
         self.view.addSubview(alertBtn)
         
-        let pushBtn = UIButton.init(frame: CGRectMake(100, 300, 100, 30))
+        pushBtn = UIButton.init(frame: CGRectMake(100, 300, 100, 30))
         pushBtn.backgroundColor = UIColor.redColor()
         pushBtn.setTitle("pushBtn", forState: .Normal)
         pushBtn.addTarget(self, action: #selector(pushBtnAct), forControlEvents: .TouchUpInside)
@@ -64,6 +66,7 @@ class ViewController: UIViewController {
     
         let tableVC = TableViewController()
         tableVC.view.backgroundColor = UIColor.whiteColor()
+        tableVC.title = "TestTableVC"
         self.presentViewController(tableVC, animated: true, completion: nil)
     
     }

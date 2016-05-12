@@ -23,6 +23,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.whiteColor()
         
         numberSlider = UISlider.init(frame: CGRectMake(10, 200, 355, 10))
         numberSlider.minimumValue = 0
