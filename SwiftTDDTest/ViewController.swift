@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var actionString: String?
-    var Action = UIAlertAction.self
+    var Action = UIAlertAction.self //该变量会在我们初始化弹窗动作时使用，这就能让我们在测试可以重写它
     var alertBtn = UIButton()
     var pushBtn = UIButton()
     
@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         let alert = UIAlertController.init(title: "TestTitle", message: "这是一个Test", preferredStyle: .Alert)
         let okAct = Action.init(title: "OK", style: .Default) { (action) in
             
+            self.actionString = "OK"
             let secondVC = SecondViewController()
             secondVC.view.backgroundColor = UIColor.whiteColor()
             self.presentViewController(secondVC, animated: true, completion: nil)

@@ -32,7 +32,9 @@ class SilliestMonkeyTests: XCTestCase {
         
         let sillMonkeys = silliest([kiki, carl, jane])
         
-        XCTAssert(sillMonkeys.contains(carl), "pass")
+        XCTAssertTrue(sillMonkeys.contains(carl), "pass")
+        XCTAssertTrue(sillMonkeys.contains(kiki), "pass")
+//        XCTAssertTrue(sillMonkeys.contains(jane), "pass")
         
     }
 
@@ -42,7 +44,5 @@ class SilliestMonkeyTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    
 
 }

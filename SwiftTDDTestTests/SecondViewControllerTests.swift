@@ -50,9 +50,9 @@ class SecondViewControllerTests: XCTestCase {
         let _ = secondVC.view
         secondVC.updateLabels(Float(80.0), Float(50.0), Float(40.0))
         
-        XCTAssert(secondVC.numberLabel.text == "80.0", "numberLabel doesn't show the right text")
-        XCTAssert(secondVC.percentageLabel.text == "50.0%", "percentLabel doesn't show the right text")
-        XCTAssert(secondVC.resultLabel.text == "40.0", "resultLabel doesn't show the right text")
+        XCTAssertTrue(secondVC.numberLabel.text == "80.0", "numberLabel doesn't show the right text")
+        XCTAssertTrue(secondVC.percentageLabel.text == "50.0%", "percentLabel doesn't show the right text")
+        XCTAssertTrue(secondVC.resultLabel.text == "40.0", "resultLabel doesn't show the right text")
     
     }
     

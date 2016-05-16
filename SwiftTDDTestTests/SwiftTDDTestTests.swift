@@ -101,6 +101,40 @@ class SwiftTDDTestTests: XCTestCase {
     
     }
     
+    func testAsynchronousURLConnection_Second() {
+    
+        let URL = "http://nshipster.com/"
+        let expectation = expectationWithDescription("GET\(URL)")
+        let session = NSURLSession.sharedSession()
+        let task = session.dataTaskWithURL(NSURL.init(string: URL)!) { (data, response, error) in
+            
+            expectation.fulfill()
+            
+            XCTAssertNotNil(data, "data should not be nil")
+            XCTAssertNil(error, "error should be nil")
+            
+            if let HTTPResponse: NSHTTPURLResponse? = response as? NSHTTPURLResponse {
+            
+                XCTAssertEqual(HTTPResponse!.URL?.absoluteString, URL, "HTTP response URL should be equal to original URL")
+                XCTAssertEqual(HTTPResponse?.statusCode, 200, "HTTTP response status code should be 200")
+                XCTAssertEqual((HTTPResponse?.MIMEType)! as String, "text/html", "HTTP response content type should be text/html")
+            
+            }else {
+            
+                XCTFail("Response was not NSHTTPResponse")
+            
+            }
+            
+        }
+        
+        task.resume()
+        
+        waitForExpectationsWithTimeout((task.originalRequest?.timeoutInterval)!) { (error) in
+            task.cancel()
+        }
+    
+    }
+    
 
     
     

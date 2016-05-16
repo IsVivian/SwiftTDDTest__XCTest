@@ -24,7 +24,7 @@ class SingletonTests: XCTestCase {
     
         let sington1 = Singleton.shared
         let sington2 = Singleton.shared
-        XCTAssert(sington1 === sington2, "pass")
+        XCTAssertTrue(sington1 === sington2, "pass")
     
     }
 

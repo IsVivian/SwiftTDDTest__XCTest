@@ -25,7 +25,7 @@ class FrogTests: XCTestCase {
         let frog = Frog()
         frog.transform()
         
-        XCTAssert(frog.name == "Frog", "Pass")
+        XCTAssertTrue(frog.name == "Frog", "pass")
         
     }
 

@@ -15,18 +15,18 @@ public func silliest(monkeys: [Monkey]) -> [Monkey] {
 
 }
 
-public func monkeyContains<T: Equatable>(array: [T], object: T?) -> Bool {
-
-    for temp in array {
-    
-        if temp == object {
-            
-            return true
-            
-        }
-    
-    }
-
-    return false
-    
-}
+//public func monkeyContains<T: Equatable>(array: [T], object: T?) -> Bool {
+//
+//    for temp in array {
+//    
+//        if temp == object {
+//            
+//            return true
+//            
+//        }
+//    
+//    }
+//
+//    return false
+//    
+//}
